@@ -1,11 +1,12 @@
-import navbar from "./components/Navbar/Navbar";
+import React from 'react'
+import "./main"
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
-    <>
-     <Navbar/>
-      <ItemListContainer greeting="Hola"/>
-    </>
+    <div className="App">
+      <Navbar/>
+    </div>
   );
 }
 
